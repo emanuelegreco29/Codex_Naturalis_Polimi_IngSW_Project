@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="scoreboardPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="504.0" prefWidth="265.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="it.polimi.ingsw.am43.View.GUI.ScoreboardController">
+   <children>
+      <ImageView fitHeight="504.0" fitWidth="265.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Images/Scoreboard.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

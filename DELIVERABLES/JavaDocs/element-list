@@ -1,0 +1,17 @@
+module:it.polimi.ingsw.am43
+it.polimi.ingsw.am43.Controller
+it.polimi.ingsw.am43.Main
+it.polimi.ingsw.am43.Model
+it.polimi.ingsw.am43.Model.Cards
+it.polimi.ingsw.am43.Model.Enum
+it.polimi.ingsw.am43.Model.Points
+it.polimi.ingsw.am43.Network
+it.polimi.ingsw.am43.Network.Messages
+it.polimi.ingsw.am43.Network.Messages.controllerMessages
+it.polimi.ingsw.am43.Network.Messages.toClientMessages
+it.polimi.ingsw.am43.Network.RMI
+it.polimi.ingsw.am43.Network.Socket
+it.polimi.ingsw.am43.Network.Socket.Heartbeat
+it.polimi.ingsw.am43.View
+it.polimi.ingsw.am43.View.GUI
+it.polimi.ingsw.am43.View.TUI

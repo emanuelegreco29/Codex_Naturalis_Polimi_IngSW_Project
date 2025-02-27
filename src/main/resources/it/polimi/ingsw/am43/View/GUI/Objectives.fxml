@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="504.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="it.polimi.ingsw.am43.View.GUI.ObjectivesController">
+   <children>
+      <ImageView fx:id="personalObj" fitHeight="120.0" fitWidth="180.0" layoutX="60.0" layoutY="34.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Images/ObjectiveCards/Back/Obj_back.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="commonObj1" fitHeight="120.0" fitWidth="180.0" layoutX="60.0" layoutY="184.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Images/ObjectiveCards/Back/Obj_back.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="commonObj2" fitHeight="120.0" fitWidth="180.0" layoutX="60.0" layoutY="315.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Images/ObjectiveCards/Back/Obj_back.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="deployedButton" layoutX="14.0" layoutY="464.0" mnemonicParsing="false" onAction="#onDeployedButtonClicked" text="Your deployed cards" />
+      <Button fx:id="onGroundButton" layoutX="174.0" layoutY="464.0" mnemonicParsing="false" onAction="#onOnGroundButtonClicked" text="What's on ground" />
+      <Label layoutX="97.0" layoutY="163.0" text="Common objectives" />
+      <Label layoutX="102.0" layoutY="14.0" text="Personal objective" />
+   </children>
+</AnchorPane>

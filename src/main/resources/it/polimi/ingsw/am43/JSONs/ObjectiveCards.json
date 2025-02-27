@@ -1,0 +1,149 @@
+{
+  "ObjectiveCards": [
+    {
+     "id": 87,
+     "front_png": "87",
+     "back_png": "Obj_back",
+      "type": "diag_TR",
+      "kingdom": 0,
+      "req_res": -1,
+      "l_res": -1,
+      "points": 2
+    },{
+      "id": 88,
+      "front_png": "88",
+      "back_png": "Obj_back",
+      "type": "L_TR",
+      "kingdom": 0,
+      "req_res": -1,
+      "l_res": 2,
+      "points": 3
+    },{
+      "id": 89,
+      "front_png": "89",
+      "back_png": "Obj_back",
+      "type": "res",
+      "kingdom": 0,
+      "req_res": 0,
+      "l_res": -1,
+      "points": 2
+    },{
+      "id": 90,
+      "front_png": "90",
+      "back_png": "Obj_back",
+      "type": "diag_TL",
+      "kingdom": 1,
+      "req_res": -1,
+      "l_res": -1,
+      "points": 2
+    },{
+      "id": 91,
+      "front_png": "91",
+      "back_png": "Obj_back",
+      "type": "L_TL",
+      "kingdom": 1,
+      "req_res": -1,
+      "l_res": 0,
+      "points": 3
+    },{
+      "id": 92,
+      "front_png": "92",
+      "back_png": "Obj_back",
+      "type": "res",
+      "kingdom": 1,
+      "req_res": 1,
+      "l_res": -1,
+      "points": 2
+    },{
+      "id": 93,
+      "front_png": "93",
+      "back_png": "Obj_back",
+      "type": "diag_TR",
+      "kingdom": 2,
+      "req_res": -1,
+      "l_res": -1,
+      "points": 2
+    },{
+      "id": 94,
+      "front_png": "94",
+      "back_png": "Obj_back",
+      "type": "L_BR",
+      "kingdom": 2,
+      "req_res": -1,
+      "l_res": 3,
+      "points": 3
+    },{
+      "id": 95,
+      "front_png": "95",
+      "back_png": "Obj_back",
+      "type": "res",
+      "kingdom": 2,
+      "req_res": 2,
+      "l_res": -1,
+      "points": 2
+    },{
+      "id": 96,
+      "front_png": "96",
+      "back_png": "Obj_back",
+      "type": "diag_TL",
+      "kingdom": 3,
+      "req_res": -1,
+      "l_res": -1,
+      "points": 2
+    },{
+      "id": 97,
+      "front_png": "97",
+      "back_png": "Obj_back",
+      "type": "L_BL",
+      "kingdom": 3,
+      "req_res": -1,
+      "l_res": 1,
+      "points": 3
+    },{
+      "id": 98,
+      "front_png": "98",
+      "back_png": "Obj_back",
+      "type": "res",
+      "kingdom": 3,
+      "req_res": 3,
+      "l_res": -1,
+      "points": 2
+    },{
+      "id": 99,
+      "front_png": "99",
+      "back_png": "Obj_back",
+      "type": "objects",
+      "kingdom": -1,
+      "req_res": "456",
+      "l_res": -1,
+      "points": 3
+    },{
+      "id": 100,
+      "front_png": "100",
+      "back_png": "Obj_back",
+      "type": "objects",
+      "kingdom": -1,
+      "req_res": "66",
+      "l_res": -1,
+      "points": 2
+    },{
+      "id": 101,
+      "front_png": "101",
+      "back_png": "Obj_back",
+      "type": "objects",
+      "kingdom": -1,
+      "req_res": "44",
+      "l_res": -1,
+      "points": 2
+    },{
+      "id": 102,
+      "front_png": "102",
+      "back_png": "Obj_back",
+      "type": "objects",
+      "kingdom": -1,
+      "req_res": "55",
+      "l_res": -1,
+      "points": 2
+    }
+  ]
+}

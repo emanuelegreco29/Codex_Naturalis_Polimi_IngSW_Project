@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="504.0" prefWidth="715.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="it.polimi.ingsw.am43.View.GUI.EndGameController">
+   <children>
+      <AnchorPane fx:id="endGameVBOX" prefHeight="272.0" prefWidth="550.0">
+         <children>
+            <ImageView fitHeight="63.0" fitWidth="68.0" layoutX="57.0" layoutY="142.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Images/1.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="287.0" layoutY="14.0" text="Final Results">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font></Label>
+            <Label layoutX="188.0" layoutY="103.0" text="Player">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label layoutX="282.0" layoutY="103.0" text="Completed objectives">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label layoutX="438.0" layoutY="103.0" text="TOTAL POINTS">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label fx:id="user0" alignment="CENTER" layoutX="188.0" layoutY="156.0" text="Player" />
+            <Label fx:id="private0" alignment="CENTER" layoutX="296.0" layoutY="156.0" text="Private objectives" />
+            <Label fx:id="points0" alignment="CENTER" layoutX="438.0" layoutY="156.0" text="TOTAL POINTS" />
+            <ImageView fitHeight="63.0" fitWidth="68.0" layoutX="57.0" layoutY="213.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Images/2.png" />
+               </image>
+            </ImageView>
+            <Label fx:id="user1" alignment="CENTER" layoutX="188.0" layoutY="227.0" text="Player" />
+            <Label fx:id="private1" alignment="CENTER" layoutX="296.0" layoutY="227.0" text="Private objectives" />
+            <Label fx:id="points1" alignment="CENTER" layoutX="438.0" layoutY="227.0" text="TOTAL POINTS" />
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="line3" layoutX="10.0" layoutY="10.0" prefHeight="70.0" prefWidth="550.0">
+         <children>
+            <ImageView fitHeight="63.0" fitWidth="68.0" layoutX="59.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Images/3.png" />
+               </image>
+            </ImageView>
+            <Label fx:id="user2" alignment="CENTER" layoutX="190.0" layoutY="28.0" text="Player" />
+            <Label fx:id="private2" alignment="CENTER" layoutX="298.0" layoutY="28.0" text="Private objectives" />
+            <Label fx:id="points2" alignment="CENTER" layoutX="440.0" layoutY="28.0" text="TOTAL POINTS" />
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="line4" layoutX="10.0" layoutY="250.0" prefHeight="70.0" prefWidth="550.0">
+         <children>
+            <ImageView fitHeight="63.0" fitWidth="68.0" layoutX="59.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Images/4.png" />
+               </image>
+            </ImageView>
+            <Label fx:id="user3" alignment="CENTER" layoutX="190.0" layoutY="28.0" text="Player" />
+            <Label fx:id="private3" alignment="CENTER" layoutX="298.0" layoutY="28.0" text="Private objectives" />
+            <Label fx:id="points3" alignment="CENTER" layoutX="440.0" layoutY="28.0" text="TOTAL POINTS" />
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="winnerLine" layoutX="10.0" layoutY="315.0" prefHeight="70.0" prefWidth="550.0">
+         <children>
+            <Label fx:id="winnerLabel" alignment="CENTER" layoutX="244.0" layoutY="14.0" prefHeight="17.0" prefWidth="228.0" text="The winner is: WinnerUsername!" />
+         </children>
+      </AnchorPane>
+   </children>
+</VBox>

@@ -1,0 +1,44 @@
+.text-field-error {
+    -fx-border-color: red;
+    -fx-border-width: 2px;
+    -fx-text-fill: red;
+}
+
+.casino-table {
+    -fx-background-color: #006400;
+    -fx-background-size: cover;
+    -fx-background-position: center;
+}
+
+.casino-table-others {
+    -fx-background-color: #a9d0a6;
+    -fx-background-size: cover;
+    -fx-background-position: center;
+}
+
+
+.clickable-pane {
+    -fx-background-color: rgba(255, 255, 0, 0.3); /* Giallognolo e trasparente */
+    -fx-border-color: transparent; /* Bordo inizialmente trasparente */
+    -fx-border-width: 2; /* Spessore del bordo */
+    -fx-cursor: pointer; /* Cambia il cursore per indicare che è cliccabile */
+}
+
+.clickable-pane:hover {
+    -fx-background-color: rgba(255, 255, 0, 0.5); /* Cambia colore di sfondo al passaggio del mouse */
+    -fx-border-color: yellow; /* Cambia il colore del bordo al passaggio del mouse */
+}
+
+.clickable-pane:pressed {
+    -fx-background-color: rgba(255, 255, 0, 0.7); /* Cambia colore di sfondo al click */
+    -fx-border-color: red; /* Cambia il colore del bordo al click */
+}
+
+.in-hand:hover {
+    -fx-border-color: yellow; /* Cambia il colore del bordo al passaggio del mouse */
+    -fx-border-width: 2; /* Spessore del bordo */
+}
+.in-hand-selected {
+    -fx-border-color: green; /* Cambia il colore del bordo al click */
+    -fx-border-width: 4; /* Spessore del bordo */
+}
