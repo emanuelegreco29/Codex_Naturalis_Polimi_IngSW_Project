@@ -4,6 +4,9 @@
   <img src="https://studiobombyx.com/assets/Slider-Codex-2-1920x1080.jpg"/>
 </div>
 
+![Static Badge](https://img.shields.io/badge/JDK-21-orange)
+![Static Badge](https://img.shields.io/badge/AY-2023%2F24-green)
+
 ## Project Specifications
 This project aims at creating a digital  and distributed version, written in Java, of the board game **Codex Naturalis** by **Cranio Creations**, allowing up to four (4) players to play a game on a local network. 
 
