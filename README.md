@@ -28,7 +28,7 @@ After having read and learnt the rules, which always is the most fundamental req
 - [Linux Arm Archive](https://download.oracle.com/java/21/archive/jdk-21.0.2_linux-aarch64_bin.tar.gz)
 
 ## How to run
-To run the Client and/or the Server, simply download the .jar files from the [DELIVERABLES](https://github.com/Colsim01/IS24-AM43/tree/71467f1f7594271a0717c02658189e40e9a77a6d/DELIVERABLES) folder, open a terminal window in the same directory where you saved the files and run the command:
+To run the Client and/or the Server, simply download the .jar files from the [DELIVERABLES](https://github.com/emanuelegreco29/IngSw1_Project/tree/95a7d9b2d8eef6e2c9f907db86b8b7b3641eb69c/DELIVERABLES) folder, open a terminal window in the same directory where you saved the files and run the command:
 ```
 java -jar CodexNaturalis.jar
 ```
